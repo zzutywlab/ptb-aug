@@ -1,0 +1,5 @@
+﻿experiment,label,final_epoch,final_d_loss_graph,final_d_loss_node,final_g_loss_graph,final_g_loss_node,final_w_dist,save_path
+wo_learnable_adjacency,w/o learnable adjacency,800,-0.14947305531241,0.00048761967627797276,-1.7234566360712051,0.0008067264207056724,0.14947305531241,output/phase2/gnn_ablation\wo_learnable_adjacency\wo_learnable_adjacency_epoch_0800.npz
+wo_conditional_node,w/o conditional node,800,-0.09459558874368668,0.0019921141501981765,-0.9485708549618721,0.003561785415513441,0.09459558874368668,output/phase2/gnn_ablation\wo_conditional_node\wo_conditional_node_epoch_0800.npz
+wo_node_level_loss,w/o node-level loss,800,-0.3578710533678532,0.0,-0.3008900862187147,0.0,0.3578710533678532,output/phase2/gnn_ablation\wo_node_level_loss\wo_node_level_loss_epoch_0800.npz
+wo_graph_module,w/o graph module,800,0.013001271151006221,0.00011088285236837692,0.17263425514101982,0.000527413056261139,-0.013001271151006221,output/phase2/gnn_ablation\wo_graph_module\wo_graph_module_epoch_0800.npz
